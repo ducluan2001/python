@@ -29,5 +29,9 @@ print(tnc[::-1])  # dao nguoc chuoi
 '''de xuong dong dung dau \n
 -tab dung dau \t
 -doi voi chuoi co the dung mot so toan tu + hoac * voi chuoi
-
 '''
+# in ra he bat phan
+print("%o" % (a))
+# in ra 2 so sau dau phay
+b = 9.3123413
+print("%.2f" % (b))
