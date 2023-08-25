@@ -5,6 +5,5 @@ print("%o" % (a))
 b = 9.3123413
 print("%.2f" % (b))
 # tính 2 mũ n không dùng hàm
-
 n = 1 << 10
 print(n)
