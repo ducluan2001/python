@@ -1,6 +1,6 @@
 s = "      For most Unix systems, you must download and compile the source code. The same source code archive can also be used to build the Windows and Mac versions, and is the starting point for ports to all other platforms.     "
+print(len(s))  # đếm số ký tự trong chuỗi
 print(s.count("s"))  # đếm số kí tự xuất hiện trong mảng
-
 print(s.capitalize() + "capitalize")  # in hoa ký tự đầu tiên của chuỗi
 print(s.upper() + "upper")  # in hoa tất cả các kí tự của chuỗi
 print(s.lower() + "lower")  # in thường tất cả các kí tự của chuỗi
