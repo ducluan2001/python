@@ -1,7 +1,7 @@
 import math
 
 x = float(input("Nhap x: "))
-n = int(input("Nhap x: "))
+n = int(input("Nhap n: "))
 
 s = 0
 

@@ -17,9 +17,9 @@ while (s >= 60):
 
 print(h, m, s)
 
-# cách 2
-sum_s = h * 3600 + m * 60 + s + k
-h = int(sum_s / 3600)
-m = int((sum_s % 3600) / 60)
-s = sum_s - h * 3600 - m * 60
-print(h, m, s)
+# # cách 2
+# sum_s = h * 3600 + m * 60 + s + k
+# h = int(sum_s / 3600)
+# m = int((sum_s % 3600) / 60)
+# s = sum_s - h * 3600 - m * 60
+# print(h, m, s)
