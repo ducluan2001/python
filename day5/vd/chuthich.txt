@@ -1,0 +1,2 @@
+vd51 - vd54 là hướng dẫn cách khai báo danh sách (list)
+vd55 trở đi hướng dẫn cách truy cập đến các phần tử trong dánh sách
