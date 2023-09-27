@@ -4,5 +4,5 @@ for i, data in enumerate(results, start=2):
     name, time = data[0], data[1]
     print("{}. {} {}s".format(i, name, time))
 # với i là chỉ số index và data nằm trong danh sách
-# enumerate(danh sách, vị trí bắt đầu)
+# enumerate(danh sách, bắt đầu từ)
 # chạy ví dụ để hiểu thêm
