@@ -10,3 +10,6 @@ for i in range(n):
         tt[j] = input()
     ds.append(tt.copy())
 print(ds)
+for i in range(n):
+    print("Thong tin sinh vien so", i+1, end=":")
+    print(ds[i])
