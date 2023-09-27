@@ -14,15 +14,14 @@ n = 5
 thongTinSV2 = {"ma": '', "ten": '', "tuoi": '', "dia chi": '', "hoc luc": ''}
 giatriSo = ["ma", "tuoi"]
 
-for txt in thongTinSV2:
+for i, txt in enumerate(thongTinSV2):
     print("Nhap", txt, ":", end="")
-    for x in range(len(giatriSo)):
-        if (txt == giatriSo[x]):
-            thongTinSV2[txt] = int(input())
-            break
-        else:
-            thongTinSV2[txt] = input()
-            break
+
+    if (txt == "ma" or txt == "tuoi"):
+        thongTinSV2[txt] = int(input())
+    else:
+        thongTinSV2[txt] = input()
+
 print(thongTinSV2)
 
 # ep kieu trong dict
