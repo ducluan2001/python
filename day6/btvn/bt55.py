@@ -17,7 +17,7 @@ for i in range(n):
     if(ds[i]["gia"] < min):
         min = ds[i]["gia"]
         ds2.append(ds[i])
-    else:
-        ds2.append(ds[0])
+if(ds2 == []):
+    ds2.append(ds[0])
 print(ds2)
 
