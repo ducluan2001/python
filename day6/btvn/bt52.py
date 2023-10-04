@@ -9,7 +9,7 @@ for i in range(n):
         print("Nhap", j, end=":")
         tt[j] = input()
     ds.append(tt.copy())
-print(ds)
+# print(ds)
 for i in range(n):
     print("Thong tin sinh vien so", i+1, end=":")
     print(ds[i])
