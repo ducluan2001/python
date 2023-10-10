@@ -14,4 +14,6 @@ file.close()
 # doc file
 file2 = pandas.read_csv('datapandas.txt', sep=',', header=None, names=[
                         'masv', 'tensv', 'lop', 'quequan'])
-print(file2)
+lop = ['1', '2']
+sv = file2.query('lop in @lop')
+print(sv)
