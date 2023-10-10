@@ -1,5 +1,4 @@
-file = open('dulieusinhvien.txt', 'w')
-
+file = open('dulieusinhvien.txt', 'a')
 while (True):
     maSv = input("Nhap ma sinh vien: ")
     if (maSv == ""):
@@ -13,3 +12,4 @@ print('\t'.join(["maSv", "tenSv", "lop", "quequan"]))
 file = open('dulieusinhvien.txt', 'r')
 r = file.read()
 print(r)
+file.close()
