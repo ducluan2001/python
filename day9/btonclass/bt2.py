@@ -22,7 +22,7 @@ class PtBac2:
                                                                                    self.b - math.sqrt(delta)) / (2 * self.a), 2))
 
 
-pt1 = PtBac2(2, 6, 1)
+pt1 = PtBac2(2, 4, 1)
 
 print(pt1.tinhDelta())
 
