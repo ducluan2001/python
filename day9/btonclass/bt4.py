@@ -28,6 +28,5 @@ class Book:
 
 
 # print(Book.cnt)
-
 # x1.addObject()
 # print(Book.cnt)
